@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Curso JavaScript</title>
+    </head>
+    <body>
+
+        <h1>Introdução - Operadores Lógicos</h1>
+
+        <script>
+            //AND, OR, NOT
+            
+            var sexo = 'M', idade = 25;
+
+            if(sexo === 'M' && idade >= 18){
+                console.log('OK');
+            } 
+
+            /*
+            
+            if(sexo === 'M' || idade >= 18){
+                console.log('OK');
+            } 
+
+
+            if(sexo !== 'M'){
+                console.log('OK');
+            } 
+
+
+            if(sexo !== 'M'){
+                var resultado = true;
+            } else {
+                var resultado = false;
+            }
+
+            */
+
+            var resultado = sexo === 'M';
+            console.log(resultado);
+        </script>
+    </body>
+</html>
